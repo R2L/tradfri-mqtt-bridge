@@ -1,0 +1,19 @@
+{
+  "name": "tradfri_js",
+  "version": "1.0.0",
+  "description": "mqtt tradfri gateway",
+  "main": "tradfri_mqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tradfri_mqtt.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "node-tradfri-client": "^1.5.0",
+    "npm": "^6.5.0",
+    "request": "^2.88.0",
+    "request-json": "^0.6.3"
+  }
+}
